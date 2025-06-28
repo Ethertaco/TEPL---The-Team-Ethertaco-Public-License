@@ -4,7 +4,30 @@ This document records the key changes and evolution of the Team Ethertaco Public
 
 ---
 
-## Version 1.2 - [Effective Date: June 23, 2025] - Current Stable
+## Version 1.3.0 - [Effective Date: June 28, 2025] - Current Stable
+
+**Focus:** Major legal enhancement, introducing patent grant clarity and addressing modern commercialization vectors like AI training.
+
+**Key Changes from Version 1.2:**
+
+*   **Preamble & Disclaimer:**
+    *   No significant changes.
+*   **Definitions (Section 1):**
+    *   **1.4 "Commercial Use":**
+        *   **This explicitly includes:** Added new clauses to explicitly define "providing paid professional services (support, consulting, etc.)" and "using the software in for-profit educational programs" as Commercial Use.
+*   **Permissions and Conditions (Section 2):**
+    *   **2.5 Grant of Patent License for Non-Commercial Use:** This is a **major new section**.
+        *   Explicitly grants a perpetual, worldwide, non-exclusive, royalty-free patent license for **non-commercial use only**.
+        *   This provides legal safety for community users and contributors against patent claims from other contributors within the non-commercial ecosystem.
+        *   It explicitly **does not** grant any patent rights for commercial use, reinforcing that this must be negotiated separately.
+*   **Termination (Section 4):**
+    *   **4.2 Reinstatement:** While the core "sole discretion" clause was solidified in 1.2, version 1.3 now links this reinstatement authority to the copyright holders defined in the `AUTHORS` file, strengthening the governance link.
+*   **Copyright Notice:**
+    *   The guidance to refer to an `AUTHORS` file becomes more critical due to the explicit link in Section 4.2.
+
+---
+
+## Version 1.2 - [Effective Date: June 23, 2025] - Deprecated
 
 **Focus:** Enhanced legal clarity, user responsibility, and specific governance notes.
 
