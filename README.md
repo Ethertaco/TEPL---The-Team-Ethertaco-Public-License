@@ -73,7 +73,8 @@ Here is a recommended header template for your source code files (e.g., for Java
  *
  * Please read the full license text carefully to understand all your rights
  * and obligations.
- */```
+ */
+```
 
 **Note:** Remember to create and maintain an `AUTHORS.md` file in your project's root directory to list the copyright holders who have the authority to grant "Verified Authorization" or "Reinstatement" as per TEPL 1.3.0.
 
