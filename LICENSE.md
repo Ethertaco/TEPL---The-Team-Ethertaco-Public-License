@@ -1,6 +1,6 @@
-## Team Ethertaco Public License (TEPL) Version 1.2
+## Team Ethertaco Public License (TEPL) Version 1.3(.0)
 
-**Effective Date: June 23, 2025**
+**Effective Date: June 28, 2025**
 
 **Official Source Repository: https://github.com/Ethertaco/LICENSE**
 
@@ -8,7 +8,7 @@
 
 ### Preamble
 
-The Team Ethertaco Public License (TEPL) is a free, **source-available**, strong copyleft license. It is designed to ensure collaborative development and community reciprocity while establishing clear boundaries for its application.
+The Team Ethertaco Public License (TEPL) is a free, source-available, strong copyleft license. It is designed to ensure collaborative development and community reciprocity while establishing clear boundaries for its application.
 
 This license is founded on the principle that the Software should be freely available for public inspection, academic use, personal projects, and non-commercial collaboration. To maintain this principle, TEPL intentionally establishes a high barrier for commercial application. It achieves this by generally prohibiting Commercial Use and by creating a strong presumption against the sale of separate commercial licenses, thereby steering the project towards community-based support and non-profit models of sustainability.
 
@@ -34,6 +34,10 @@ To transfer a copy of the Software or a Modification to a third party, or to mak
 #### 1.4. "Commercial Use"
 Any application of the Software or a Modification is considered "Commercial Use" if it is used in a product or service that generates revenue (including from sales, subscriptions, advertising, or service fees), AND where the Software or Modification is integral to that product or service's core functionality.
 
+**This explicitly includes:**
+- Providing paid professional services (such as support, consulting, or integration) where the Software is a central component of the service delivered.
+- Using the Software as a core instructional or practical tool in a for-profit educational program, such as a paid online course or commercial training bootcamp.
+
 **The "Integral Test"**: A component is considered "integral" if either of the following is true:
 a) The primary reason a user pays for or uses the product or service is due to functionality provided by the Software or Modification.
 b) Removing the Software or Modification would render the product or service non-functional, deprive it of a primary feature for which users choose it, or otherwise render it unmarketable.
@@ -48,7 +52,7 @@ b) Removing the Software or Modification would render the product or service non
 Financial contributions given voluntarily for general project support, without any contractual expectation of services, features, or preferential treatment in return.
 
 #### 1.6. "Verified Authorization"
-A separate, legally binding, written agreement executed between the original copyright holders and a third party, which grants that third party specific permissions for Commercial Use that are not granted by this License.
+A separate, legally binding, written agreement executed between the copyright holders (as identified in the project's `AUTHORS` file) and a third party, which grants that third party specific permissions for Commercial Use that are not granted by this License.
 
 #### 1.7. "Corresponding Source"
 The complete and preferred form of the source code required to generate, install, and run the object code version of the Software or a Modification.
@@ -89,13 +93,16 @@ This license is governed by the laws of Hong Kong SAR. Any dispute, controversy,
 2. If negotiation fails, mediation administered by the WIPO Mediation and Arbitration Center.
 3. If mediation fails, binding arbitration in Hong Kong under the HKIAC Administered Arbitration Rules.
 
-Note on Jurisdiction: Hong Kong SAR was chosen as the governing jurisdiction due to its mature, bilingual (English and Chinese) common law system and its status as a globally recognized center for international arbitration, providing a neutral and predictable legal framework.
+*Note on Jurisdiction*: Hong Kong SAR was chosen as the governing jurisdiction due to its mature, bilingual (English and Chinese) common law system and its status as a globally recognized center for international arbitration, providing a neutral and predictable legal framework.
 
 #### 3.2. Resolution of Ambiguity
 In any dispute over the interpretation of terms such as "integral" or "core functionality" as used in Section 1.4, interpretation shall be guided by the intent described in the Preamble and the "Integral Test". In cases of genuine uncertainty, a presumption in favor of a "non-commercial" classification shall apply.
 
 #### 3.3. User's Responsibility for Compliance
 You, the user, are solely responsible for determining whether your use of the Software complies with the terms of this License, including the "Commercial Use" restrictions. The choice of governing law in Hong Kong SAR does not exempt you from compliance with your local laws. Relying on this Software for any purpose is at your own risk.
+
+#### 3.4. Language and Translations
+The English version of this License is the only official, legally binding version. Unofficial translations may be created and distributed to help users understand the License, but they have no legal effect.
 
 ---
 
@@ -105,7 +112,7 @@ You, the user, are solely responsible for determining whether your use of the So
 Your rights under this License will terminate automatically if you fail to comply with any of its terms. Specifically, any attempt at Commercial Use without a separate Verified Authorization, or any Distribution that fails to provide the Corresponding Source, will result in immediate termination of your rights.
 
 #### 4.2. Reinstatement
-If your rights are terminated under Section 4.1, they are not automatically reinstated. You may request reinstatement from the original copyright holders in writing. Reinstatement may be granted at the sole discretion of the copyright holders after they have verified that the violation has been fully cured and that all infringing distributions have been rectified or removed.
+If your rights are terminated under Section 4.1, they are not automatically reinstated. You may request reinstatement from the copyright holders (as identified in the project's `AUTHORS` file) in writing. Reinstatement may be granted at the sole discretion of the copyright holders after they have verified that the violation has been fully cured and that all infringing distributions have been rectified or removed.
 
 ---
 
@@ -126,10 +133,12 @@ Copyright © 2025 Team Ethertaco & QinShenYu
 
 For a current list of copyright holders with authority to grant Verified Authorization, please see the AUTHORS file in the root of the source repository.
 
+When using this software, we appreciate an attribution in your project's documentation or "About" page, though this is not a strict requirement.
+
 Permission is granted to copy and distribute verbatim copies of this license document, 
 but modification is prohibited except through the official versioning process at 
 https://github.com/Ethertaco/LICENSE
 
 The complete license text for this version is always available at:
-https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.2.md
+https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.md
 ```
