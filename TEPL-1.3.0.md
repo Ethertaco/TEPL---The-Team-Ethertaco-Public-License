@@ -140,5 +140,5 @@ but modification is prohibited except through the official versioning process at
 https://github.com/Ethertaco/LICENSE
 
 The complete license text for this version is always available at:
-https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.md
+https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.0.md
 ```
