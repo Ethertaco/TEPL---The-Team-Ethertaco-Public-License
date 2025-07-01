@@ -1,18 +1,17 @@
-> [!WARNING]
-> **Major Update: TEPL Version 1.3 is the New Recommended Version**
+> [!IMPORTANT]
+> **Critical Update: TEPL Version 1.3.1 is the New Recommended Version**
 >
-> We are excited to announce the release of **TEPL Version 1.3.0**, which now supersedes all previous versions and becomes the current stable and recommended license.
+> We have released **TEPL Version 1.3.1**, which now supersedes all previous versions and becomes the current stable and recommended license.
 >
-> Version 1.3 introduces significant legal enhancements, including:
-> - **A limited, non-commercial patent grant** (Section 2.5), which provides legal certainty for non-commercial users while maintaining a high barrier for commercial use.
-> - A more robust **"Reinstatement"** clause (Section 4.2), clarifying that reinstatement is at the sole discretion of the copyright holders.
-> - Explicit inclusion of **AI/ML training** and **paid support services** as "Commercial Use" (Section 1.4).
+> **Please read carefully:** While TEPL 1.3.0 introduced several enhancements, it inherited a critical flaw from previous versions: it was silent on patent rights. This created a potential legal risk ("patent trap") even for the non-commercial users we aim to protect.
+>
+> **TEPL Version 1.3.1 is a critical security and legal update that corrects this.** Its primary change is the addition of **Section 2.5, "Grant of Patent License for Non-Commercial Use."** This provides essential legal certainty and protection for our entire community.
 >
 > For a detailed list of all changes, please see our **[HISTORY.md](HISTORY.md)** file.
 >
-> All new and existing projects are strongly encouraged to use **[TEPL Version 1.3.0](TEPL-1.3.0.md)**.
+> **All new and existing projects are strongly encouraged to use [TEPL Version 1.3.1](TEPL-1.3.1.md).** Version 1.3.0 should be considered transitional and is not recommended for use.
 >
-> Previous versions (1.0, 1.1, 1.2) are now considered deprecated and are retained for historical reference only.
+> Previous versions (1.0, 1.1, 1.2, 1.3.0) are now considered deprecated and are retained for historical reference only.
 
 ---
 
@@ -26,17 +25,17 @@ The TEPL is a **source-available, strong copyleft license** designed to protect 
 
 ## Which Version to Use?
 
-We recommend using the latest stable version for all your projects. Currently, this is **[TEPL Version 1.3.0](TEPL-1.3.0.md)**.
+We recommend using the latest stable version for all your projects. Currently, this is **[TEPL Version 1.3.1](TEPL-1.3.1.md)**.
 
 ### Future Development
 
-Team Ethertaco is continuously working to refine and strengthen the TEPL family of licenses. Future versions (like the upcoming 1.4 and beyond) will aim to further enhance governance structures and legal robustness. We appreciate feedback as we develop these future versions. Stay tuned for updates!
+Team Ethertaco is continuously working to refine and strengthen the TEPL family of licenses. Future versions will aim to further enhance governance structures and legal robustness. We appreciate feedback as we develop these future versions. Stay tuned for updates!
 
 ## Using TEPL in Your Project
 
-If you choose to license your work under TEPL, you should include the full license text (e.g., `TEPL-1.3.0.md`) in your project's root directory and add a license header to each source file.
+If you choose to license your work under TEPL, you should include the full license text (e.g., `TEPL-1.3.1.md`) in your project's root directory and add a license header to each source file.
 
-### TEPL 1.3.0 License Header Template
+### TEPL 1.3.1 License Header Template
 
 Here is a recommended header template for your source code files (e.g., for Java):
 
@@ -45,13 +44,13 @@ Here is a recommended header template for your source code files (e.g., for Java
  * Copyright © [Start Year]-[Current Year] [Your Name / Your Company]
  * (Copyright Holders as defined in your project's AUTHORS file)
  *
- * This work is licensed under the Team Ethertaco Public License (TEPL) Version 1.3.0.
+ * This work is licensed under the Team Ethertaco Public License (TEPL) Version 1.3.1.
  * The complete license text for this version is always available at:
- * https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.0.md
+ * https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.1.md
  *
  * ---
  *
- * KEY TERMS OF THE TEPL v1.3.0:
+ * KEY TERMS OF THE TEPL v1.3.1:
  *
  * 1.  **NON-COMMERCIAL USE ONLY**: You are granted broad rights to use, modify,
  *     and distribute this software for any non-commercial purpose.
@@ -65,8 +64,8 @@ Here is a recommended header template for your source code files (e.g., for Java
  *     corresponding source code under this same license.
  *
  * 4.  **PATENT GRANT (NON-COMMERCIAL)**: This license now includes an explicit,
- *     limited patent grant for non-commercial use only. This adds protection
- *     for the community but does not grant patent rights for commercial use.
+ *     limited patent grant for non-commercial use only. This is a critical
+ *     feature for community protection.
  *
  * 5.  **NO WARRANTY**: The software is provided "AS IS", without any warranty.
  *     Use at your own risk.
@@ -76,14 +75,14 @@ Here is a recommended header template for your source code files (e.g., for Java
  */
 ```
 
-**Note:** Remember to create and maintain an `AUTHORS.md` file in your project's root directory to list the copyright holders who have the authority to grant "Verified Authorization" or "Reinstatement" as per TEPL 1.3.0.
+**Note:** Remember to create and maintain an `AUTHORS.md` file in your project's root directory to list the copyright holders who have the authority to grant "Verified Authorization" or "Reinstatement" as per TEPL 1.3.1.
 
 ---
 
 ## License for This Repository's Content
 
-The content of this repository itself (including this `README.md` file, the `HISTORY.md` file, and the license text files themselves) is licensed under the **Team Ethertaco Public License (TEPL) Version 1.3.0**.
+The content of this repository itself (including this `README.md` file, the `HISTORY.md` file, and the license text files themselves) is licensed under the **Team Ethertaco Public License (TEPL) Version 1.3.1**.
 
 Copyright © 2025 Team Ethertaco, QinShenYu.
 
-Please see the [TEPL-1.3.0.md](TEPL-1.3.0.md) file for the full license text.
+Please see the [TEPL-1.3.1.md](TEPL-1.3.1.md) file for the full license text.
