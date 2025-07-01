@@ -1,6 +1,6 @@
-## Team Ethertaco Public License (TEPL) Version 1.3(.0)
+## Team Ethertaco Public License (TEPL) Version 1.3.1
 
-**Effective Date: June 28, 2025**
+**Effective Date: July 1, 2025**
 
 **Official Source Repository: https://github.com/Ethertaco/LICENSE**
 
@@ -83,6 +83,9 @@ a) **With Strong Copyleft Licenses**: If you combine the Software with a work li
    *Note on AGPLv3 Compatibility*: This clause is intentionally provided as a one-way bridge. It allows a project under this License, at the discretion of its contributors, a path to migrate into the broader, OSI-approved AGPLv3 ecosystem if its original non-commercial goals are no longer applicable or desirable. This action is irreversible for the combined work.
 b) **With Permissive Licenses**: If you incorporate components licensed under permissive licenses (such as MIT or Apache 2.0), the obligations of this License apply to the combined work as a whole. This does not change the license of the original, standalone permissive-licensed components.
 
+#### 2.5. Grant of Patent License for Non-Commercial Use
+Each contributor grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, sell, offer to sell, import, and otherwise transfer the Software, but **only for non-Commercial Use**. This patent license applies only to those patent claims licensable by such contributor that are necessarily infringed by their contribution(s) alone or by combination of their contribution(s) with the Software to which such contribution(s) was submitted.
+
 ---
 
 ### 3. Legal Provisions
@@ -140,5 +143,5 @@ but modification is prohibited except through the official versioning process at
 https://github.com/Ethertaco/LICENSE
 
 The complete license text for this version is always available at:
-https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.md
+https://github.com/Ethertaco/LICENSE/blob/main/TEPL-1.3.1.md
 ```
