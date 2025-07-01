@@ -4,26 +4,28 @@ This document records the key changes and evolution of the Team Ethertaco Public
 
 ---
 
-## Version 1.3.0 - [Effective Date: June 28, 2025] - Current Stable
+## Version 1.3.1 - [Effective Date: July 1, 2025] - Current Stable
 
-**Focus:** Major legal enhancement, introducing patent grant clarity and addressing modern commercialization vectors like AI training.
+**Focus:** Critical legal and security update to address the "patent trap" risk.
+
+**Key Changes from Version 1.3.0:**
+
+*   **Permissions and Conditions (Section 2):**
+    *   **NEW SECTION 2.5: Grant of Patent License for Non-Commercial Use:** This is the sole and critical change in this version. It adds an explicit, limited patent grant for non-commercial use, protecting community users and contributors from potential patent infringement claims from other contributors within the ecosystem. This resolves a major legal ambiguity present in all prior versions.
+
+---
+
+## Version 1.3.0 - [Effective Date: June 28, 2025] - Deprecated
+
+**Focus:** Major legal enhancement over v1.2, but now superseded by v1.3.1 due to the absence of a patent clause.
 
 **Key Changes from Version 1.2:**
 
-*   **Preamble & Disclaimer:**
-    *   No significant changes.
 *   **Definitions (Section 1):**
-    *   **1.4 "Commercial Use":**
-        *   **This explicitly includes:** Added new clauses to explicitly define "providing paid professional services (support, consulting, etc.)" and "using the software in for-profit educational programs" as Commercial Use.
-*   **Permissions and Conditions (Section 2):**
-    *   **2.5 Grant of Patent License for Non-Commercial Use:** This is a **major new section**.
-        *   Explicitly grants a perpetual, worldwide, non-exclusive, royalty-free patent license for **non-commercial use only**.
-        *   This provides legal safety for community users and contributors against patent claims from other contributors within the non-commercial ecosystem.
-        *   It explicitly **does not** grant any patent rights for commercial use, reinforcing that this must be negotiated separately.
+    *   **1.4 "Commercial Use":** Added "Safe Harbor Clarifications" to explicitly include paid support services and for-profit educational use as Commercial Use.
 *   **Termination (Section 4):**
-    *   **4.2 Reinstatement:** While the core "sole discretion" clause was solidified in 1.2, version 1.3 now links this reinstatement authority to the copyright holders defined in the `AUTHORS` file, strengthening the governance link.
-*   **Copyright Notice:**
-    *   The guidance to refer to an `AUTHORS` file becomes more critical due to the explicit link in Section 4.2.
+    *   **4.2 Reinstatement:** Formally linked the reinstatement authority to the copyright holders defined in the `AUTHORS` file.
+*   **Notable Absence (Critical Flaw):** This version **did not** include an explicit patent grant, which was identified as a critical risk to the community and subsequently addressed in v1.3.1.
 
 ---
 
