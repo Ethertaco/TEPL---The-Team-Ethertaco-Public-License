@@ -1,6 +1,7 @@
 ## Team Ethertaco Public License (TEPL) Version 1.4
 
 **Effective Date: August 21, 2025**
+
 **Official Source Repository: https://github.com/Ethertaco/LICENSE**
 
 ---
