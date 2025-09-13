@@ -4,7 +4,27 @@ This document records the key changes and evolution of the Team Ethertaco Public
 
 ---
 
-## Version 1.4 - [Effective Date: August 21, 2025] - Current Stable
+## Version 1.5 - [Effective Date: September 13, 2025] - Current Stable
+
+**Focus:** Enhanced commercial evaluation flexibility, clarified Steward succession and dormancy, and refined AGPLv3 compatibility.
+
+**Key Changes from Version 1.4:**
+
+*   **Definitions (Section 1):**
+    *   **1.4 "Commercial Use":** For the "Explicitly Excluded from Commercial Use" section, the internal testing/development evaluation period (originally 90 days) now includes an option for **extension up to a maximum of 180 days**, upon written request and technical justification to the Copyright Steward.
+    *   **1.8 "Copyright Steward":**
+        *   Clarified that the process for succession of the Copyright Steward **should be documented in an `ADMIN.md` file** in the source repository.
+        *   Introduced a new provision: if the Steward becomes unresponsive to all licensing inquiries for a consecutive period of **180 days**, its authority to grant new "Verified Authorizations" and "Reinstatements" is considered **dormant** until reinstated by a public declaration from a successor Steward.
+*   **Permissions and Conditions (Section 2):**
+    *   **2.4 License Compatibility and Integration:**
+        *   **AGPLv3 Compatibility Note:** The note now clarifies that a **reversion from AGPLv3 back to TEPL is possible** under specific, strict conditions (only for modules not combined with other AGPLv3-native code, and requiring unanimous, public, and verifiable consent of the Copyright Steward). This provides a more flexible "one-way bridge" with a narrow, controlled path back.
+        *   **NEW: GPLv2 Incompatibility Note:** Explicitly added a note stating: `This License is not compatible with the GNU General Public License, Version 2.`
+*   **Copyright Notice:**
+    *   Updated the contact email for all licensing inquiries to `license@ethertaco.cn`. (Note: This change reflects a broader policy shift for all future licenses.)
+
+---
+
+## Version 1.4 - [Effective Date: August 21, 2025] - Deprecated
 
 **Focus:** Formalizing the "Copyright Steward" role, refining patent retaliation, and streamlining contact.
 
