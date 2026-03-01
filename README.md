@@ -1,93 +1,78 @@
+# Team Ethertaco License Family Repository
+
 > [!IMPORTANT]
-> **Critical Update: TEPL Version 1.5 is the New Recommended Version**
+> **Latest Update (March 1, 2026): The Team Ethertaco License Family is now live.**
 >
-> We have released **TEPL Version 1.5**, which now supersedes all previous versions and becomes the current stable and recommended license.
+> We have officially released the **Lesser Team Ethertaco Public License (LTEPL) Version 1.0**, which serves as a companion to our flagship **TEPL Version 1.5**.
 >
-> **Please read carefully:** TEPL 1.5 further strengthens community reciprocity and clarifies its application. Key updates include:
-> *   **Extended Evaluation Period:** The 90-day internal evaluation period for for-profit organizations can now be extended up to 180 days with a written technical justification.
-> *   **Copyright Steward Dormancy:** New provisions define the dormancy of the Copyright Steward's authority if unresponsive for 180 days, with succession rules to be documented in `ADMIN.md`.
-> *   **GPLv2 Incompatibility:** Explicitly clarifies that TEPL 1.5 is not compatible with GNU GPLv2.
-> *   **AGPLv3 Reversion (Conditional):** Introduces a narrow, conditional path for projects combined with AGPLv3 to potentially revert to TEPL, requiring unanimous Steward consent.
->
-> For a detailed list of all changes, please see our **[HISTORY.md](HISTORY.md)** file.
->
-> **All new and existing projects are strongly encouraged to use [TEPL Version 1.5](TEPL-1.5.md).** Previous versions (1.0, 1.1, 1.2, 1.3.0, 1.3.1, 1.4) are now considered deprecated and are retained for historical reference only.
+> **Which one should I use?**
+> *   **Use [TEPL v1.5](TEPL-1.5.md)** for standalone applications (e.g., a server core, a complete tool). It provides strong copyleft protection.
+> *   **Use [LTEPL v1.0](LTEPL-1.0.md)** for software libraries, APIs, or modules (e.g., a base library, a plugin) that are intended to be used by other projects, including commercial ones.
 
 ---
 
-## Welcome to the Team Ethertaco Public License Repository
+## About the TEPL Family
 
-This repository hosts the official text and ongoing development of the Team Ethertaco Public License (TEPL) family.
+The Team Ethertaco Public License (TEPL) family consists of **source-available, strong copyleft licenses** designed to protect community-driven and personal projects from commercial exploitation. 
 
-The TEPL is a **source-available, strong copyleft license** designed to protect community-driven and personal projects from commercial exploitation, while ensuring that all modifications and distributions give back to the community under the same terms.
+Our core philosophy is simple: **Collaborate freely, but do not commoditize.** 
 
-**Disclaimer**: The TEPL is not approved by the Open Source Initiative (OSI). It is intended for authors who wish to share their work with a strong emphasis on non-commercial use.
+*   **TEPL (The Fortress):** Ensures that all modifications and network-based distributions of the software give back to the community under the same terms.
+*   **LTEPL (The Bridge):** Acts as a specialized bridge license, allowing the core technology of a protected library to be adopted by a broader range of software (including commercial "Combined Works"), while ensuring the library itself remains public property.
 
-## Which Version to Use?
+**Disclaimer**: These licenses are not approved by the Open Source Initiative (OSI). They are intended for authors who prioritize non-commercial reciprocity over commercial flexibility.
 
-We recommend using the latest stable version for all your projects. Currently, this is **[TEPL Version 1.5](TEPL-1.5.md)**.
+## Choosing Your Version
 
-### Future Development
+| Scenario | Recommended License |
+| :--- | :--- |
+| Standalone Software / End-user App | **[TEPL Version 1.5](TEPL-1.5.md)** |
+| Shared Library / API / Framework | **[LTEPL Version 1.0](LTEPL-1.0.md)** |
 
-Team Ethertaco is continuously working to refine and strengthen the TEPL family of licenses. Future versions will aim to further enhance governance structures, legal robustness, and clarify usage scenarios. We appreciate feedback as we develop these future versions. Stay tuned for updates!
+---
 
-## Using TEPL in Your Project
+## Using TEPL/LTEPL in Your Project
 
-If you choose to license your work under TEPL, you should include the full license text (e.g., `TEPL-1.5.md`) in your project's root directory and add a license header to each source file.
+Include the full text of the chosen license in your repository and add the appropriate header to each source file.
 
-### TEPL 1.5 License Header Template
-
-Here is a recommended header template for your source code files (e.g., for Java):
-
+### Option A: TEPL 1.5 Header (For Applications)
 ```java
 /*
  * Copyright © [Start Year]-[Current Year] [Your Name / Your Company]
  * (Copyright Steward as defined in TEPL Version 1.5)
+ * Licensed under the Team Ethertaco Public License (TEPL) Version 1.5.
+ * Text: https://github.com/Ethertaco/TEPL---The-Team-Ethertaco-Public-License/blob/main/TEPL-1.5.md
  *
- * This work is licensed under the Team Ethertaco Public License (TEPL) Version 1.5.
- * The complete license text for this version is always available at:
- * https://github.com/Ethertaco/TEPL---The-Team-Ethertaco-Public-License/blob/main/TEPL-1.5.md
- *
- * ---
- *
- * KEY TERMS OF THE TEPL v1.5:
- *
- * 1.  **NON-COMMERCIAL USE ONLY**: You are granted broad rights to use, modify,
- *     and distribute this software for any non-commercial purpose.
- *
- * 2.  **COMMERCIAL USE PROHIBITED**: Any and all forms of Commercial Use are
- *     strictly prohibited unless you have obtained a separate, written
- *     "Verified Authorization" from the Copyright Steward.
- *     (See Section 1.8 of the license for "Copyright Steward" definition and contact)
- *
- * 3.  **STRONG COPYLEFT (SAAS COVERED)**: If you distribute this software or make
- *     it available as a network service, you must provide the complete and
- *     corresponding source code under this same license.
- *
- * 4.  **PATENT GRANT (NON-COMMERCIAL)**: This license includes an explicit,
- *     limited patent grant for non-commercial use only.
- *
- * 5.  **PATENT RETALIATION**: Institution of patent litigation against any entity
- *     (except for a defensive response) will terminate any patent licenses granted to you.
- *
- * 6.  **GPLv2 INCOMPATIBILITY**: This license is explicitly not compatible with GNU General Public License, Version 2.
- *
- * 7.  **NO WARRANTY**: The software is provided "AS IS", without any warranty.
- *     Use at your own risk.
- *
- * Please read the full license text carefully to understand all your rights
- * and obligations.
+ * KEY TERMS: NON-COMMERCIAL USE ONLY; STRONG COPYLEFT (SAAS COVERED); 
+ * PATENT GRANT (NON-COMMERCIAL); NO WARRANTY.
  */
 ```
 
-**Note:** As per TEPL 1.5, the "Copyright Steward" is the central authority identified in the Copyright Notice of the license itself. All official correspondence regarding licensing inquiries should be directed to `license@ethertaco.cn`. The process for succession of the Copyright Steward should be documented in an `ADMIN.md` file in the root of the source repository.
+### Option B: LTEPL 1.0 Header (For Libraries)
+```java
+/*
+ * Copyright © [Start Year]-[Current Year] [Your Name / Your Company]
+ * (Copyright Steward as defined in LTEPL Version 1.0)
+ * Licensed under the Lesser Team Ethertaco Public License (LTEPL) Version 1.0.
+ * Text: https://github.com/Ethertaco/TEPL---The-Team-Ethertaco-Public-License/blob/main/LTEPL-1.0.md
+ *
+ * KEY TERMS: PERMITS COMMERCIAL COMBINED WORKS; LIBRARY ITSELF REMAINS 
+ * NON-COMMERCIAL (VIA TEPL 1.5); LIBRARY REPLACEMENT RIGHTS RESERVED; NO WARRANTY.
+ */
+```
 
 ---
 
-## License for This Repository's Content
+## Administration and Succession
 
-The content of this repository itself (including this `README.md` file, the `HISTORY.md` file, and the license text files themselves) is licensed under the **Team Ethertaco Public License (TEPL) Version 1.5**.
+As per the licenses, the **Copyright Steward** is the central authority for granting Verified Authorizations and Reinstatements. 
 
-Copyright © 2025 Team Ethertaco, QinShenYu.
+*   **Current Steward:** Team Ethertaco & QinShenYu
+*   **Official Contact:** `license@ethertaco.cn`
+*   **Governance:** For details regarding the Steward role and the succession policy in case of dormancy, please see **[ADMIN.md](ADMIN.md)**.
 
-Please see the [TEPL-1.5.md](TEPL-1.5.md) file for the full license text.
+## License for This Repository
+
+The content of this repository itself is licensed under the **Team Ethertaco Public License (TEPL) Version 1.5**.
+
+Copyright © 2025-2026 Team Ethertaco, QinShenYu.
