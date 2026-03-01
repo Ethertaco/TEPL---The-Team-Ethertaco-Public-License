@@ -1,10 +1,22 @@
-# Team Ethertaco Public License (TEPL) Version History
+# Team Ethertaco License Family Version History
 
-This document records the key changes and evolution of the Team Ethertaco Public License (TEPL) family of licenses.
+This document records the key changes and evolution of the Team Ethertaco Public License (**TEPL**) and the Lesser Team Ethertaco Public License (**LTEPL**).
 
 ---
 
-## Version 1.5 - [Effective Date: September 13, 2025] - Current Stable
+## LTEPL Version 1.0 - [Effective Date: March 1, 2026] - Current Stable (for Libraries)
+
+**Focus:** The inaugural release of the "Lesser" variant, designed as a bridge for non-commercial libraries to be used in commercial combined works.
+
+**Key Features:**
+*   **The "Bridge" Principle:** Specifically permits the creation and distribution of commercial "Combined Works" (e.g., a paid plugin using a TEPL-protected base library), provided the library itself remains non-commercial.
+*   **TEPL v1.5 Integration:** Explicitly incorporates the non-commercial and copyleft provisions of **TEPL v1.5** to govern the library's source code and its modifications.
+*   **Library Replacement Requirement:** Mandates that combined works must allow users to replace or upgrade the library (supporting dynamic linking or providing re-linking materials for static linking).
+*   **Limited Patent Grant:** Provides a narrow patent license strictly for calling the library's interfaces in commercial contexts, while retaining full protection for the library's internal inventions.
+
+---
+
+## TEPL Version 1.5 - [Effective Date: September 13, 2025] - Current Stable (for Applications)
 
 **Focus:** Enhanced commercial evaluation flexibility, clarified Steward succession and dormancy, and refined AGPLv3 compatibility.
 
@@ -20,7 +32,7 @@ This document records the key changes and evolution of the Team Ethertaco Public
         *   **AGPLv3 Compatibility Note:** The note now clarifies that a **reversion from AGPLv3 back to TEPL is possible** under specific, strict conditions (only for modules not combined with other AGPLv3-native code, and requiring unanimous, public, and verifiable consent of the Copyright Steward). This provides a more flexible "one-way bridge" with a narrow, controlled path back.
         *   **NEW: GPLv2 Incompatibility Note:** Explicitly added a note stating: `This License is not compatible with the GNU General Public License, Version 2.`
 *   **Copyright Notice:**
-    *   Updated the contact email for all licensing inquiries to `license@ethertaco.cn`. (Note: This change reflects a broader policy shift for all future licenses.)
+    *   Updated the contact email for all licensing inquiries to `license@ethertaco.cn`.
 
 ---
 
